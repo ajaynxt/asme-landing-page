@@ -12,14 +12,25 @@
     <xhtml:link rel="alternate" hreflang="en-IN" href="https://liquidglass.ajaynxt.com/" />
     <image:image>
       <image:loc>https://ajaynxt.com/assets/brand/ajay-saini-og.jpg</image:loc>
-      <image:title>AJAY NXT — 3D &amp; 2D Liquid Glass Web Experiences</image:title>
+      <image:title>Liquid Glass 3D UI &amp; Architecture</image:title>
       <image:caption>Interactive 3D web applications, 2D motion design, and Liquid Glass UI components by Ajay Saini (AJAY NXT / ajaynxt.com)</image:caption>
       <image:geo_location>India</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
-      <image:title>3D &amp; 2D Interactive Digital Canvas</image:title>
+      <image:title>Liquid Glass 3D Interactive Digital Showcase</image:title>
       <image:caption>Sensory spotlight masking and interactive visual experience by Ajay Saini</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ajaynxt.github.io/asme-landing-page/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ajaynxt.com/assets/brand/ajay-saini-og.jpg</image:loc>
+      <image:title>Liquid Glass UI Showcase on GitHub Pages</image:title>
+      <image:caption>High-performance 3D &amp; 2D Liquid Glass interface engineering by Ajay Saini</image:caption>
     </image:image>
   </url>
 </urlset>

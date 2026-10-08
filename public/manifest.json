@@ -1,0 +1,17 @@
+{
+  "name": "AJAY NXT — 3D & 2D Liquid Glass Web Experiences",
+  "short_name": "Liquid Glass UI",
+  "description": "Interactive 3D and 2D web experiences, Liquid Glass UI engineering, and creative frontend design by Ajay Saini (AJAY NXT).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

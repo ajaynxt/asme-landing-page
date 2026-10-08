@@ -1,0 +1,33 @@
+# Technical SEO robots.txt for liquidglass.ajaynxt.com
+# Managed by AJAY NXT (ajaynxt.com)
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /index.html
+Allow: /favicon.svg
+
+# Targeted Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Canonical Host
+Host: https://liquidglass.ajaynxt.com
+
+# XML Sitemaps
+Sitemap: https://liquidglass.ajaynxt.com/sitemap.xml

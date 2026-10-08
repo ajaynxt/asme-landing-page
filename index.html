@@ -1,16 +1,328 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyberpunk Hero</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300..800;1,400;1,500&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Document Title (SEO optimized: Brand + 3D/2D + Liquid Glass + Website Work) -->
+    <title>AJAY NXT — 3D &amp; 2D Liquid Glass Website Work | Ajay Saini Creative Web Developer</title>
+
+    <!-- Core Search Engine Meta Tags -->
+    <meta name="title" content="AJAY NXT — 3D &amp; 2D Liquid Glass Website Work | Ajay Saini Creative Web Developer" />
+    <meta name="description" content="Award-winning 3D &amp; 2D website work, Liquid Glass UI design, and interactive frontend engineering by Ajay Saini (AJAY NXT). Transforming digital ideas into sensory realities at ajaynxt.com." />
+    <meta name="keywords" content="website work, 3d website work, 2d design work, liquid glass, liquid glass ui, ajaynxt, ajaynxt.com, Ajay Saini, ajay saini website work, creative developer india, interactive web design, 3d web development, threejs developer, luxury glassmorphism, react vite tailwind, frontend engineer portfolio, web designer india" />
+    <meta name="author" content="Ajay Saini (AJAY NXT — ajaynxt.com)" />
+    <meta name="creator" content="Ajay Saini" />
+    <meta name="publisher" content="AJAY NXT (ajaynxt.com)" />
+    <meta name="application-name" content="AJAY NXT — Liquid Glass 3D/2D" />
+
+    <!-- Crawlers Directives (Aggressive Indexing) -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="slurp" content="index, follow" />
+    <meta name="baiduspider" content="index, follow" />
+    <meta name="revisit-after" content="2 days" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+
+    <!-- Canonical & Language Alternates -->
+    <link rel="canonical" href="https://liquidglass.ajaynxt.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://liquidglass.ajaynxt.com/" />
+    <link rel="alternate" hreflang="en" href="https://liquidglass.ajaynxt.com/" />
+    <link rel="alternate" hreflang="en-IN" href="https://liquidglass.ajaynxt.com/" />
+
+    <!-- Geo & Local SEO Metadata -->
+    <meta name="geo.region" content="IN-HP" />
+    <meta name="geo.placename" content="India" />
+    <meta name="geo.position" content="31.1048;77.1734" />
+    <meta name="ICBM" content="31.1048, 77.1734" />
+
+    <!-- Dublin Core Metadata (Academic & Semantic Crawlers) -->
+    <meta name="DC.title" content="AJAY NXT — 3D &amp; 2D Liquid Glass Website Work" />
+    <meta name="DC.creator" content="Ajay Saini" />
+    <meta name="DC.subject" content="3D Web Development, 2D Graphic Design, Liquid Glass UI, Creative Frontend" />
+    <meta name="DC.description" content="Featured 3D &amp; 2D website work, canvas spotlight interaction, and bespoke Liquid Glass components by Ajay Saini." />
+    <meta name="DC.publisher" content="AJAY NXT" />
+    <meta name="DC.language" content="en" />
+    <meta name="DC.rights" content="Copyright 2026 Ajay Saini. All rights reserved." />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn, Discord, Telegram) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liquidglass.ajaynxt.com/" />
+    <meta property="og:title" content="AJAY NXT — 3D &amp; 2D Liquid Glass Website Work | Ajay Saini" />
+    <meta property="og:description" content="Explore cutting-edge 3D interactive web experiences, 2D motion design, and high-performance Liquid Glass UI components by Ajay Saini (AJAY NXT / ajaynxt.com)." />
+    <meta property="og:image" content="https://ajaynxt.com/assets/brand/ajay-saini-og.jpg" />
+    <meta property="og:image:secure_url" content="https://ajaynxt.com/assets/brand/ajay-saini-og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AJAY NXT — 3D &amp; 2D Liquid Glass Web Design Showcase by Ajay Saini" />
+    <meta property="og:site_name" content="AJAY NXT — Creative Web Studio" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://liquidglass.ajaynxt.com/" />
+    <meta name="twitter:title" content="AJAY NXT — 3D &amp; 2D Liquid Glass Website Work | Ajay Saini" />
+    <meta name="twitter:description" content="Explore cutting-edge 3D interactive web experiences, 2D motion design, and high-performance Liquid Glass UI components by Ajay Saini (@ajaynxt)." />
+    <meta name="twitter:image" content="https://ajaynxt.com/assets/brand/ajay-saini-og.jpg" />
+    <meta name="twitter:image:alt" content="AJAY NXT 3D and 2D Liquid Glass Website Work" />
+    <meta name="twitter:site" content="@ajaynxt" />
+    <meta name="twitter:creator" content="@ajaynxt" />
+
+    <!-- Mobile & PWA Theme Colors -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AJAY NXT" />
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Favicon & Brand Icons -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+
+    <!-- Resource Preconnects for Ultra-Fast Core Web Vitals -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://d8j0ntlcm91z4.cloudfront.net" />
+    <link rel="dns-prefetch" href="https://images.higgs.ai" />
+    <link rel="dns-prefetch" href="https://ajaynxt.com" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300..800;1,400;1,500&family=Instrument+Serif:ital@0;1&family=Albert+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Comprehensive Schema.org Multi-Entity Knowledge Graph (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://liquidglass.ajaynxt.com/#website",
+          "url": "https://liquidglass.ajaynxt.com/",
+          "name": "AJAY NXT — 3D & 2D Liquid Glass Website Work",
+          "alternateName": ["AJAY NXT", "Liquid Glass UI Demo", "Ajay Saini 3D Web Work", "ajaynxt.com"],
+          "description": "Award-winning 3D & 2D website work, Liquid Glass UI design, and interactive frontend engineering by Ajay Saini.",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@type": "Person",
+            "@id": "https://ajaynxt.com/#creator",
+            "name": "Ajay Saini",
+            "url": "https://ajaynxt.com",
+            "jobTitle": "Creative Web Developer & Designer",
+            "email": "ajayx3neha@gmail.com",
+            "telephone": "+919929562585",
+            "sameAs": [
+              "https://github.com/ajaynxt",
+              "https://twitter.com/ajaynxt",
+              "https://ajaynxt.com"
+            ]
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ajaynxt.com/#creator",
+          "name": "Ajay Saini",
+          "alternateName": "ajaynxt",
+          "url": "https://ajaynxt.com",
+          "image": "https://ajaynxt.com/assets/brand/ajay-saini-og.jpg",
+          "jobTitle": "Lead Full-Stack & 3D Web Engineer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "AJAY NXT"
+          },
+          "knowsAbout": [
+            "3D Web Development",
+            "2D Motion Graphics",
+            "Liquid Glass UI Architecture",
+            "Interactive Canvas Programming",
+            "React.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Next.js",
+            "Three.js",
+            "Framer Motion"
+          ],
+          "sameAs": [
+            "https://github.com/ajaynxt",
+            "https://twitter.com/ajaynxt",
+            "https://ajaynxt.com"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://liquidglass.ajaynxt.com/#service-org",
+          "name": "AJAY NXT — Digital Craft Studio",
+          "url": "https://ajaynxt.com",
+          "logo": "https://ajaynxt.com/assets/brand/lion-mark-orig.png",
+          "image": "https://ajaynxt.com/assets/brand/ajay-saini-og.jpg",
+          "description": "High-end bespoke digital agency engineering 3D websites, 2D motion design, and Liquid Glass UI components.",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "IN"
+          },
+          "areaServed": "Worldwide",
+          "founder": {
+            "@type": "Person",
+            "name": "Ajay Saini"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Web Design & Development Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "3D Interactive Web Experiences",
+                  "description": "Immersive 3D web applications, canvas animations, and interactive spotlight visual experiences."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "2D Motion & UI/UX Design",
+                  "description": "Custom 2D visual craft, high-converting digital branding, and sensory typography systems."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Liquid Glass UI Interface Systems",
+                  "description": "Proprietary glassmorphism design systems with multi-stop gradients and specular caustics."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://liquidglass.ajaynxt.com/#creative-work",
+          "name": "3D & 2D Liquid Glass Interactive Web Showcase",
+          "headline": "Sensory Spotlight Reveal & Liquid Glass Telemetry Interface",
+          "creator": {
+            "@type": "Person",
+            "name": "Ajay Saini",
+            "url": "https://ajaynxt.com"
+          },
+          "datePublished": "2026-10-08",
+          "inLanguage": "en",
+          "genre": "Interactive Web Design",
+          "keywords": [
+            "3D Website Work",
+            "2D Motion Design",
+            "Liquid Glass UI",
+            "Interactive Canvas Reveal",
+            "Ajay Saini",
+            "AJAY NXT"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://liquidglass.ajaynxt.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "AJAY NXT Home",
+              "item": "https://ajaynxt.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Website Work",
+              "item": "https://ajaynxt.com/#work"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "3D & 2D Liquid Glass Experience",
+              "item": "https://liquidglass.ajaynxt.com/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://liquidglass.ajaynxt.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Liquid Glass UI in modern web development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Liquid Glass UI is a futuristic visual design aesthetic that unites multi-layer luminosity blending, hardware-accelerated backdrop blur, inner specular highlights, and gradient border caustics for an ultra-tactile glass feel."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What 3D and 2D website work does Ajay Saini (AJAY NXT) develop?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ajay Saini builds high-performance 3D interactive web experiences, canvas spotlight reveal masking, 2D motion design, bespoke brand identities, luxury e-commerce platforms, and cutting-edge frontend architectures."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can I hire Ajay Saini for custom website design and development?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can connect with Ajay Saini directly via his official website at ajaynxt.com, email at ajayx3neha@gmail.com, or phone/WhatsApp at +91 99295 62585 for project inquiries and client collaborations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What technologies power this Liquid Glass 3D/2D web demo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This experience is engineered with React, TypeScript, Vite, Tailwind CSS, HTML5 Canvas 2D radial gradient masking, Framer Motion staggered animations, and Lucide React icons."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does AJAY NXT work with international clients outside India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, AJAY NXT collaborates globally with startups, enterprises, and creators across the US, the UK, Europe, Australia, and Asia, delivering world-class digital products with maximum search engine optimization."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
-  <body class="bg-black text-white antialiased">
+  <body class="bg-black text-white antialiased selection:bg-white/20 selection:text-white">
+    <!-- Non-JavaScript Crawler Fallback for Instant Search Engine Indexation -->
+    <noscript>
+      <header style="padding: 2rem; background: #000; color: #fff; text-align: center;">
+        <h1>AJAY NXT — 3D &amp; 2D Liquid Glass Website Work by Ajay Saini</h1>
+        <p>Explore award-winning 3D web development, 2D visual design, and Liquid Glass UI architecture engineered by Ajay Saini (AJAY NXT). Visit the main portfolio at <a href="https://ajaynxt.com" style="color: #60a5fa;">ajaynxt.com</a>.</p>
+        <nav>
+          <a href="https://ajaynxt.com" style="color: #fff; margin-right: 1.5rem;">Official Portfolio</a>
+          <a href="mailto:ajayx3neha@gmail.com" style="color: #fff; margin-right: 1.5rem;">Email Ajay Saini</a>
+          <a href="tel:+919929562585" style="color: #fff; margin-right: 1.5rem;">Call / WhatsApp (+91 99295 62585)</a>
+          <a href="https://github.com/ajaynxt" style="color: #fff;">GitHub Repos</a>
+        </nav>
+      </header>
+      <main style="padding: 2rem; max-width: 900px; margin: 0 auto; color: #ccc;">
+        <h2>Services &amp; Capabilities</h2>
+        <ul>
+          <li><strong>3D Web Development:</strong> Interactive canvas spotlight reveal, Three.js 3D web experiences, and sensory hardware-accelerated visuals.</li>
+          <li><strong>2D Design &amp; Motion:</strong> Bespoke UI/UX engineering, typography systems, and high-conversion landing page layouts.</li>
+          <li><strong>Liquid Glass UI:</strong> Translucent glassmorphism components with luminosity blending and multi-stop gradient borders.</li>
+        </ul>
+      </main>
+    </noscript>
+
+    <!-- React Application Mount Point -->
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
